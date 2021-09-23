@@ -1,3 +1,11 @@
+<?php
+require('./partials/_db_config.php');
+include("./partials/_db_auth.php");  
+?>
+
+<a href="./logout.php"> logout</a>      
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
