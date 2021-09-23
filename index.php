@@ -3,7 +3,7 @@ require('./partials/_db_config.php');
 include("./partials/_db_auth.php");  
 ?>
 
-<a href="./logout.php"> logout</a>      
+
 
 
 <!DOCTYPE html>
@@ -15,6 +15,7 @@ include("./partials/_db_auth.php");
     <title>LoginV1</title>
 </head>
 <body>
+    <a href="./logout.php"> logout</a>      
 
 </body>
 </html>
